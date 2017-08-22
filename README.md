@@ -1,2 +1,2 @@
-# node-sample-api
+# Node Sample API
 Bootstrap of a Node API

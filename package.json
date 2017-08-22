@@ -1,0 +1,41 @@
+{
+  "name": "sample-api",
+  "version": "1.0.0",
+  "description": "Sample TODO Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha './test/unit/**/**.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandofarias/node-sample-api.git"
+  },
+  "keywords": [
+    "node",
+    "sample",
+    "api"
+  ],
+  "author": "nandofarias <nandofarias@me.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nandofarias/node-sample-api/issues"
+  },
+  "homepage": "https://github.com/nandofarias/node-sample-api#readme",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "express": "4.15.4",
+    "morgan": "1.8.2",
+    "pg": "7.1.2",
+    "pg-hstore": "2.3.2",
+    "sequelize": "4.6.0"
+  },
+  "devDependencies": {
+    "chai": "4.1.1",
+    "mocha": "3.5.0",
+    "nodemon": "1.11.0",
+    "proxyquire": "1.8.0",
+    "sequelize-cli": "2.8.0",
+    "sinon": "3.2.1",
+    "sinon-chai": "2.13.0"
+  }
+}
