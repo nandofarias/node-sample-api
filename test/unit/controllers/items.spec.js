@@ -34,7 +34,6 @@ describe('Items controller', () => {
       Item.create.throws();
       const response = await controller.create(null, res);
       expect(response.status).to.be.equal(400);
-      expect(response.data).to.not.be.undefined;
     });
   });
 });

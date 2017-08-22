@@ -24,7 +24,24 @@ async function list(req, res) {
   }
 }
 
+async function findOne(req, res) {
+  try {
+    const todo = await Todo.findById(req.params.todoId ,{
+      include: [{
+        model: Item
+      }]
+    });
+    if (!todo) return res.status(404).send({
+      message: 'Todo Not Found',
+    });
+    return res.status(200).send(todo);
+  } catch (error) {
+    return res.status(400).send(error);
+  }
+}
+
 module.exports = {
   create,
-  list
+  list,
+  findOne
 };

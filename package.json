@@ -4,7 +4,7 @@
   "description": "Sample TODO Api",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha './test/unit/**/**.spec.js'"
+    "test": "npx mocha -w './test/unit/**/**.spec.js'"
   },
   "repository": {
     "type": "git",
