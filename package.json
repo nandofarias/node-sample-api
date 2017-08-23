@@ -4,6 +4,7 @@
   "description": "Sample TODO Api",
   "main": "index.js",
   "scripts": {
+    "start": "npx nodemon",
     "test": "npx mocha -w './test/unit/**/**.spec.js'"
   },
   "repository": {
