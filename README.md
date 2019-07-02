@@ -8,8 +8,7 @@ As an avid Medium reader, I've read a lot of Node.js articles and tutorials, so 
 
 - Install
 ```bash
-npm install yarn -g
-yarn install
+npm install
 ```
 
 - Test
